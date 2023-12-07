@@ -112,7 +112,7 @@ header p {
     }
   }
 
-/* Tablet and larger media query */
+/* Tablet media query */
 @media screen and (min-width: 768px) {
   header {
     font-size: 120%;

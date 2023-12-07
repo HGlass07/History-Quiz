@@ -210,3 +210,20 @@ function selectAnswer(event){
         button.disabled = true;
     });
 }
+
+/**hides placeholder answer options**/
+function resetState(){
+    while(answerButtons.firstChild){
+        answerButtons.removeChild(answerButtons.firstChild);
+    }
+}
+
+/**function to proceed to next question until end of question list, when score is shown */
+function nextQuestion(){
+    currentQuestionIndex++;
+    if(currentQuestionIndex < 10){
+        displayQuestion();
+    }else{
+        displayScore();
+    }
+}
