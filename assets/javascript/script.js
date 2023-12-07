@@ -136,3 +136,17 @@ let questions = [
         ]
     }                           
 ];
+
+/**DOM load event listener */
+document.addEventListener('DOMContentLoaded', function () {
+    answerButtons.addEventListener("click", ()=>{
+        if(currentQuestionIndex < questions.length){
+            nextQuestion();
+        }
+    });
+    playAgain.addEventListener("click", ()=>{
+        startQuiz();
+    });
+
+    startQuiz();
+});
