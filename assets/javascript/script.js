@@ -227,3 +227,20 @@ function nextQuestion(){
         displayScore();
     }
 }
+
+/**show score function, message depending on points scored */
+function displayScore(){
+    resetState();
+        if(score > 5 && score < 10) {
+            questionArea.innerHTML = `Well done! you scored ${score} out of 10`;
+        } else if(score === 10) {
+            questionArea.innerHTML = `Well done! you scored ${score} out of 10, you're a Rome expert!`;
+        } else {
+            questionArea.innerHTML = `You scored ${score} out of 10, better luck next time!`
+        }
+    playAgain.innerHTML = "Play Again";
+    playAgain.style.display = "block";
+    if (playAgain === true) {
+        startQuiz();
+    }
+}
