@@ -150,3 +150,31 @@ document.addEventListener('DOMContentLoaded', function () {
 
     startQuiz();
 });
+
+/*function to start quiz, or restart once finished, includes question randomisation function call*/
+function startQuiz(){
+    score = 0;
+    currentQuestionIndex = 0;
+    shuffleArray(questions);
+    displayQuestion();
+    playAgain.style.display = "none";
+}
+
+/*question display function*/
+function displayQuestion(){
+    resetState();
+    let currentQuestion = questions[currentQuestionIndex];
+    let questionNumber = currentQuestionIndex + 1;
+    questionArea.innerHTML = questionNumber + ". " + currentQuestion.question;
+
+    currentQuestion.answers.forEach(answer => {
+        let button = document.createElement("button");
+        button.innerHTML = answer.text;
+        button.classList.add("answer");
+        answerButtons.appendChild(button);
+        if(answer.correct){
+            button.dataset.correct = answer.correct;
+        }
+        button.addEventListener("click", selectAnswer);
+    });
+}
