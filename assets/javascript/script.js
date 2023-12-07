@@ -151,6 +151,11 @@ document.addEventListener('DOMContentLoaded', function () {
     startQuiz();
 });
 
+let answerButtons = document.getElementById("answer-buttons");
+let playAgain = document.getElementById("play-again");
+let questionArea = document.getElementById("question");
+
+
 /*function to start quiz, or restart once finished, includes question randomisation function call*/
 function startQuiz(){
     score = 0;
