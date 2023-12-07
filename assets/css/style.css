@@ -3,43 +3,88 @@
 
 /*asterisk wildcard command to override default browser styless*/
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
   
-  body {
-    background: darkred;
-    font-family: 'Cinzel';
-  }
+body {
+  background: darkred;
+  font-family: 'Cinzel';
+}
 
-  /*header styling*/
+/*header styling*/
 header {
-    font-size: 120%;
-    text-align: center;
-    margin-top: 0px;
-    height: 200px;
-    padding: 10px;
-    position: relative;
-    border-width: 50px;
-    border: 5px solid slategray;
-  }
+  background-image: url("../images/hero.jpg");
+  font-size: 120%;
+  text-align: center;
+  margin-top: 0px;
+  height: 200px;
+  padding: 10px;
+  position: relative;
+  border-width: 50px;
+  border: 5px solid slategray;
+}
   
-  header h1 {
-    color: darkred;
-    text-decoration: none;
-  }
+header h1 {
+  color: darkred;
+  text-decoration: none;
+}
   
-  header p {
-    font-weight: bold;
-  }
+header p {
+  font-weight: bold;
+}
   
-  /*main quiz area styling*/
-  .quiz-area {
-    background: #fff;
-    width: 100%;
-    max-width: 600px;
-    margin: 50px auto 0;
-    border-radius: 10px;
-    padding: 30px;
-  }
+/*main quiz area styling*/
+.quiz-area {
+  background: #fff;
+  width: 100%;
+  max-width: 600px;
+  margin: 50px auto 0;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+  /*button styling*/
+.answer{
+  background: #fff;
+  color: black;
+  font-weight: 500;
+  width: 100%;
+  border: 1px solid slategray;
+  padding: 10px;
+  text-align: left;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.answer:hover:not([disabled]){
+  background: slategray;
+  color: white;
+}
+
+.answer:disabled{
+  cursor: no-drop;
+}
+
+#play-again{
+  background: slategray;
+  color: #fff;
+  font-weight: 500;
+  width: 150px;
+  border: 0;
+  padding: 10px;
+  margin: 20px auto 0;
+  border-radius: 4px;
+  cursor: pointer;
+  display: none;
+}
+
+.correct{
+  background: lightgreen;
+}
+
+.incorrect{
+  background: lightcoral;
+}
