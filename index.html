@@ -4,37 +4,50 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Roman History Quiz</title>
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
 
   <body>
+    <!--header-->
     <header>
-        <a href="index.html">
-            <h1 id="logo">Welcome to History Quiz!</h1>
-        </a>
-    </header>
+        <a href = "index.html"><h1>Roman History Quiz</h1></a>
+        <br>
+        <div id = "instructions">
+          <p>Welcome to Roman History quiz! test your knowledge with the 10 questions below.</p>
+          <br>
+          <p>Answer each multiple choice question, your score will be shown at the end. If you want to restart, select 'play again'</p>
+        </div>
+      </header>
 
+    <!--main content-->
     <main>
-        <section id = "introduction">
-            <p>
-                Test your history knowledge with this fun quiz! Each correct answer increases your score, and reveals a picture related to the question.
-            </P>
-        </section>
+      <section id="introduction">
+        <p>
+          Test your history knowledge with this fun quiz! Each correct answer
+          increases your score, and reveals a picture related to the question.
+        </p>
+      </section>
 
-        <section id = "quiz-area">
+      <!--quiz question and answer section-->
+      <section id="quiz-area">
+        <div id="score-counter">0</div>
+        <div id="result-message"></div>
+        <a href="index.html" id="reset">Reset Quiz</a>
 
-            <div id = "question1">
-
-            </div>
-
-
-        </section>
-
-
-
+        <div id="question-section">
+          <h2 id="question">
+            Question placeholder
+          </h2>
+          <div id="question1-answers">
+            <button id="answer1" class="answer">Nero</button>
+            <button id="answer1" class="answer" id="correct1">Hadrian</button>
+            <button id="answer1" class="answer">Constantine</button>
+            <button id="answer1" class="answer">Romulus</button>
+          </div>
+        </div>
+      </section>
     </main>
-    
 
     <script src="assets/javascript/script.js"></script>
   </body>
