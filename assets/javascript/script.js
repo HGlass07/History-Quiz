@@ -137,6 +137,11 @@ let questions = [
     }                           
 ];
 
+let answerButtons = document.getElementById("answer-buttons");
+let playAgain = document.getElementById("play-again");
+let questionArea = document.getElementById("question");
+
+
 /**DOM load event listener */
 document.addEventListener('DOMContentLoaded', function () {
     answerButtons.addEventListener("click", ()=>{
@@ -151,10 +156,14 @@ document.addEventListener('DOMContentLoaded', function () {
     startQuiz();
 });
 
-let answerButtons = document.getElementById("answer-buttons");
-let playAgain = document.getElementById("play-again");
-let questionArea = document.getElementById("question");
-
+/*Fisher-Yates sorting algorithm, to select questions to be displayed at random, 
+subsequent questions are selected from those that have not already been displayed*/
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+}
 
 /*function to start quiz, or restart once finished, includes question randomisation function call*/
 function startQuiz(){
