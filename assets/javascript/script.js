@@ -192,3 +192,21 @@ function displayQuestion(){
         button.addEventListener("click", selectAnswer);
     });
 }
+
+/*select answer function*/
+function selectAnswer(event){
+    let selectedAnswer = event.target;
+    let isCorrect = selectedAnswer.dataset.correct === "true";
+    if(isCorrect){
+        selectedAnswer.classList.add("correct");
+        score++;
+    }else{
+        selectedAnswer.classList.add("incorrect");
+    }
+    Array.from(answerButtons.children).forEach(button => {
+        if(button.dataset.correct === "true"){
+            button.classList.add("correct");
+        }
+        button.disabled = true;
+    });
+}
