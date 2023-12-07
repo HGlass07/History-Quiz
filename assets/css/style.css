@@ -34,6 +34,10 @@ header a h1 {
 header p {
   font-weight: bold;
 }
+
+#question {
+    margin:8px;
+}
   
 /*main quiz area styling*/
 .quiz-area {
@@ -112,6 +116,12 @@ header p {
     }
   }
 
+@media screen and (min-width: 400px) {
+    header p {
+      font-size: 100%;
+    }
+  }
+  
 /* Tablet media query */
 @media screen and (min-width: 768px) {
   header {
@@ -131,7 +141,7 @@ header p {
     margin-right: 50px;
   }
   header {
-    height:300px;
+    height:250px;
   }
 
 }
