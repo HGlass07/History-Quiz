@@ -26,7 +26,7 @@ header {
   border: 5px solid slategray;
 }
   
-header h1 {
+header a h1 {
   color: darkred;
   text-decoration: none;
 }
@@ -87,4 +87,51 @@ header p {
 
 .incorrect{
   background: lightcoral;
+}
+
+
+/* Very small screen media query */
+@media screen and (min-width: 200px) {
+  header {
+    height:300px;
+    font-size: 100%;
+  }
+  header p {
+    font-size: 80%;
+  }
+}
+
+/* Mobile screen media query */
+@media screen and (min-width: 370px) {
+    header {
+      height:250px;
+      font-size: 100%;
+    }
+    header p {
+      font-size: 80%;
+    }
+  }
+
+/* Tablet and larger media query */
+@media screen and (min-width: 768px) {
+  header {
+    font-size: 120%;
+    height:300px;
+  }
+  header p {
+    font-size: 100%;
+  }
+}
+
+/* Desktop and larger media query */
+@media screen and (min-width: 900px) {
+  header p {
+    font-size: 120%;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  header {
+    height:300px;
+  }
+
 }
