@@ -48,21 +48,27 @@ header p {
 .quiz-area {
   background: #fff;
   width: 100%;
-  max-width: 600px;
+  max-width: 700px;
   margin: 50px auto 0;
   border-radius: 10px;
   padding: 30px;
+}
+
+.quiz-area h2 {
+  text-align: center;
+  margin:10px;
 }
 
   /*button styling*/
 .answer{
   background: #fff;
   color: black;
-  font-weight: 500;
-  width: 100%;
+  font-size:120%;
+  font-weight: 600;
+  width: 90%;
   border: 1px solid slategray;
   padding: 10px;
-  text-align: left;
+  text-align: center;
   border-radius: 4px;
   cursor: pointer;
   transition: all 0.3s;
