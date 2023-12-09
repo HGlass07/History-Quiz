@@ -236,7 +236,10 @@ function displayScore(){
             questionArea.innerHTML = `Well done! you scored ${score} out of 10`;
         } else if(score === 10) {
             questionArea.innerHTML = `Well done! you scored ${score} out of 10, you're a Rome expert!`;
-            scoreTrophy.style.display = 'block';
+            scoreTrophy.style.display = 'flex';
+            scoreTrophy.style.marginLeft = 'auto';
+            scoreTrophy.style.marginRight = 'auto';
+            scoreTrophy.style.width = '50%';
         } else {
             questionArea.innerHTML = `You scored ${score} out of 10, better luck next time!`
         }
