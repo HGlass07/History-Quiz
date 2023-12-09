@@ -3,6 +3,7 @@
 
 #score-image {
     display: none;
+    align-content: center;
 }
 
 /*asterisk wildcard command to override default browser styless*/
@@ -65,6 +66,7 @@ header p {
   border-radius: 4px;
   cursor: pointer;
   transition: all 0.3s;
+  margin: 8px;
 }
 
 .answer:hover:not([disabled]){

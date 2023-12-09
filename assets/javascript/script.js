@@ -140,7 +140,7 @@ let questions = [
 let answerButtons = document.getElementById("answer-buttons");
 let playAgain = document.getElementById("play-again");
 let questionArea = document.getElementById("question");
-
+let scoreTrophy = document.getElementById("score-image");
 
 /**DOM load event listener */
 document.addEventListener('DOMContentLoaded', function () {
