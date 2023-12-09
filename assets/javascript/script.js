@@ -146,7 +146,7 @@ let questionArea = document.getElementById("question");
 document.addEventListener('DOMContentLoaded', function () {
     answerButtons.addEventListener("click", ()=>{
         if(currentQuestionIndex < questions.length){
-            nextQuestion();
+            setTimeout(nextQuestion, 2000);
         }
     });
     playAgain.addEventListener("click", ()=>{
@@ -171,6 +171,7 @@ function startQuiz(){
     currentQuestionIndex = 0;
     shuffleArray(questions);
     displayQuestion();
+    scoreTrophy.style.display = 'none';
     playAgain.style.display = "none";
 }
 
@@ -235,6 +236,7 @@ function displayScore(){
             questionArea.innerHTML = `Well done! you scored ${score} out of 10`;
         } else if(score === 10) {
             questionArea.innerHTML = `Well done! you scored ${score} out of 10, you're a Rome expert!`;
+            scoreTrophy.style.display = 'block';
         } else {
             questionArea.innerHTML = `You scored ${score} out of 10, better luck next time!`
         }
