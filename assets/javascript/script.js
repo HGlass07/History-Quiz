@@ -157,7 +157,8 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 /*Fisher-Yates sorting algorithm, to select questions to be displayed at random, 
-subsequent questions are selected from those that have not already been displayed*/
+subsequent questions are selected from those that have not already been displayed
+Sourced from Freecodecamp - https://www.freecodecamp.org/news/how-to-shuffle-an-array-of-items-using-javascript-or-typescript/*/
 function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
@@ -175,7 +176,8 @@ function startQuiz(){
     playAgain.style.display = "none";
 }
 
-/*question display function*/
+/*question display function. question and answer functions 
+Sourced partially from Greatstack tutorials - https://www.buymeacoffee.com/easytutorials */
 function displayQuestion(){
     resetState();
     let currentQuestion = questions[currentQuestionIndex];
