@@ -39,11 +39,11 @@ header p {
   font-weight: bold;
 }
 
+/*main quiz area styling*/
 #question {
     margin:8px;
 }
   
-/*main quiz area styling*/
 .quiz-area {
   background: #fff;
   width: 100%;
@@ -58,13 +58,13 @@ header p {
   margin:10px;
 }
 
-  /*button styling*/
+/*button styling*/
 .answer{
   background: #fff;
   color: black;
   font-size:120%;
   font-weight: 600;
-  width: 90%;
+  width: 98%;
   border: 1px solid slategray;
   padding: 10px;
   text-align: center;
