@@ -24,19 +24,51 @@ The design of the website clearly lays out the description and instructions of t
 --------------
 ## Features:
 
+- Main quiz area displaying question and multiple answers
+- Score section displayed after the quiz is complete, with score-dependent message to user, as well as a 'play again' function
 
 --------------
 ## Testing:
 
+The site was tested with an initial deployment. The quiz worked as intended, however some areas for improvement were identified such as:
+- Questions moving on too quickly following user selection
+- Users had no way of knowing if their answers were correct
+  
+These issues were subsequently fixed with a timer function, and color coding for correct and incorrect answers.
+
+Bugs identified:
+- Occasionally for iPhone users, it appears that once a question is answered and the next question is displayed, an answer will be highlighed as if it had been clicked on without any action from the user. This does not appear to be an issue for Android users.
+
+
+
 --------------
 ## Deployment:
+
+This project was deployed with the 'pages' function of github, using the steps below:
+
+1. Access the appropriate repository on github
+2. Go to the 'settings' panel and select the 'pages' tab
+3. Ensure the project is deployed from the correct source by selecting 'main branch' in the branch menu.
+4. Save changes
+5. Return to the 'code' panel, and refresh the repository once the build has finished.
+6. The deployed version of the site is now accessible from the right hand menu
+
 
 --------------
 ## Credits:
 
 Images:
+The images used were taken from pexels:
+- Marble surface, Henry and co.
+- Close up shot of a trophy, Anna Tarazevich
+
+Favicon:
+- Emoji Favicons > Classical Building, Favicon.io 
 
 Javascript:
+
+- Fisher-Yates sorting algorithm  - Free Code Camp - https://www.freecodecamp.org/news/how-to-shuffle-an-array-of-items-using-javascript-or-typescript/
+- Question display and answer functions - Greatstack - https://www.buymeacoffee.com/easytutorials
 
 --------------
 ## Aknowledgements:
