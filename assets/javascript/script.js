@@ -23,7 +23,7 @@ let questions = [
         answers: [
             { text: "The Roman Arena", correct: false},
             { text: "The Circus Maximus", correct: false},
-            { text: "The Flavian Amphetheater", correct: true},
+            { text: "The Flavian Amphitheater", correct: true},
             { text: "The Gladiators Arena", correct: false},
         ]
     },
@@ -100,7 +100,7 @@ let questions = [
         ]
     },
     {
-        question: "Augustus Ceasar and Marc Anothony were members of the second triumvirate, who was the third?",
+        question: "Augustus Ceasar and Mark Antony were members of the second triumvirate, who was the third?",
         answers: [
             { text: "Pompey Magnus", correct: false},
             { text: "Julius Caesar", correct: false},
@@ -193,7 +193,7 @@ function displayQuestion(){
     });
 }
 
-/*select answer function*/
+/**select answer function**/
 function selectAnswer(event) {
     let selectedAnswer = event.target;
     let selectedAnswerText = selectedAnswer.innerHTML; 
