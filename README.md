@@ -51,10 +51,10 @@ The site was tested with an initial deployment. The quiz worked as intended, how
 These issues were subsequently fixed with a timer function, and color coding for correct and incorrect answers.
 
 The site was tested on the following browsers, all site functions work as intended:
-•	Google Chrome
-•	Mozilla Firefox
-•	Safari
-•	Microsoft Edge
+- Google Chrome
+- Mozilla Firefox
+- Safari
+- Microsoft Edge
 
 **Bugs identified:**
 - Occasionally for iPhone users, it appears that once a question is answered and the next question is displayed, an answer will be highlighed as if it had been clicked on without any action from the user. This does not appear to be an issue for Android users. This bug does not 'break' the game, as the highlighted answer on the next question does not correspond with the correct answer, instead seeming to 'echo' the position of the previously clicked answer.
