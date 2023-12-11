@@ -176,8 +176,8 @@ function startQuiz(){
     playAgain.style.display = "none";
 }
 
-/*question display function. question and answer functions 
-Sourced partially from Greatstack tutorials - https://www.buymeacoffee.com/easytutorials */
+/*question display function. Question and answer functions 
+sourced partially from Greatstack tutorials - https://www.buymeacoffee.com/easytutorials */
 function displayQuestion(){
     resetState();
     let currentQuestion = questions[currentQuestionIndex];
