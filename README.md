@@ -93,3 +93,5 @@ Javascript:
 --------------
 ## Aknowledgements:
 
+I would like to thank my tutor Antonio for his guidance in this project, as well as my friends and family for helping to test the app.
+
