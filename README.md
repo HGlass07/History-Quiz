@@ -13,7 +13,9 @@
 
 ## Description:
 
-Roman History Quiz is a quiz app that allows users to test their knowledge of ancient Roman history with a series of 10 questions. It is intended for anyone who wants to learn more about Roman history, or test their existing knowledge. The questions are surfaced in a random order from a selection of 15 possible questions - this ensures that the user can replay the quiz and be offered different questions each time. Once the quiz has finished, the user will be displayed with a different message depending on their score, with a 'reward' image being displayed to those who score 10/10. The user can then choose to play again to try and increase their score, or to see a different variety of questions.
+Roman History Quiz is a quiz app that allows users to test their knowledge of ancient Roman history with a series of 10 questions. It is intended for anyone who wants to learn more about Roman history, or test their existing knowledge. The questions are surfaced in a random order from a selection of 15 possible questions - this ensures that the user can replay the quiz and be offered different questions each time. 
+
+Once the quiz has finished, the user will be displayed with a different message depending on their score, with a 'reward' image being displayed to those who score 10/10. The user can then choose to play again to try and increase their score, or to see a different variety of questions.
 
 --------------
 
@@ -24,8 +26,14 @@ The design of the website clearly lays out the description and instructions of t
 --------------
 ## Features:
 
-- Main quiz area displaying question and multiple answers
-- Score section displayed after the quiz is complete, with score-dependent message to user, as well as a 'play again' function
+- Quiz instruction and description section.
+  ![header screenshot](assets/images/header_screenshot.png)
+  
+- Main quiz area displaying question and multiple answers.
+  ![quiz-area screenshot](assets/images/quiz_screenshot.png)
+  
+- Score section displayed after the quiz is complete, with score-dependent message to user, as well as a 'play again' function.
+- ![score screenshot](assets/images/fullscore_screenshot.png)
 
 --------------
 ## Testing:
@@ -39,6 +47,19 @@ These issues were subsequently fixed with a timer function, and color coding for
 Bugs identified:
 - Occasionally for iPhone users, it appears that once a question is answered and the next question is displayed, an answer will be highlighed as if it had been clicked on without any action from the user. This does not appear to be an issue for Android users.
 
+- W3C HTML validation - no errors are returned when passing the HTML pages through this validator
+
+- W3C CSS validator - no errors are returned when passing the CSS document through this validator
+
+- JSHint Javascript validator - no errors are returned when passing the JS document through this validator
+
+- Lighthouse - a lighthouse score was generated for the site, the results of which can be found below.
+
+![homepage lighthouse score](assets/images/lighthouse.png)
+
+- Am I Responsive and Responsinator - using these websites it was possible to determine what the site would look like on different devices. All pages displayed as intended with the appropriate responsiveness.
+
+![responsiveness quiz screenshot](assets/images/response1.png) ![responsiveness score screenshot](assets/images/response2.png)
 
 
 --------------
@@ -66,7 +87,6 @@ Favicon:
 - Emoji Favicons > Classical Building, Favicon.io 
 
 Javascript:
-
 - Fisher-Yates sorting algorithm  - Free Code Camp - https://www.freecodecamp.org/news/how-to-shuffle-an-array-of-items-using-javascript-or-typescript/
 - Question display and answer functions - Greatstack - https://www.buymeacoffee.com/easytutorials
 
