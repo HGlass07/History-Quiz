@@ -189,9 +189,6 @@ function displayQuestion(){
         button.innerHTML = answer.text;
         button.classList.add("answer");
         answerButtons.appendChild(button);
-        if(answer.correct){
-            button.dataset.correct = answer.correct;
-        }
         button.addEventListener("click", selectAnswer);
     });
 }

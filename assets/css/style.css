@@ -30,9 +30,9 @@ header {
   border: 5px solid slategray;
 }
   
-header a h1 {
+header a {
   color: darkred;
-  text-decoration: none;
+  text-decoration: none !important;
 }
   
 header p {
