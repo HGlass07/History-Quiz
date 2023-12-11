@@ -194,17 +194,24 @@ function displayQuestion(){
 }
 
 /*select answer function*/
-function selectAnswer(event){
+function selectAnswer(event) {
     let selectedAnswer = event.target;
-    let isCorrect = selectedAnswer.dataset.correct === "true";
-    if(isCorrect){
+    let selectedAnswerText = selectedAnswer.innerHTML; 
+    let currentQuestion = questions[currentQuestionIndex];
+    let correctAnswer = currentQuestion.answers.find(answer => answer.correct).text; 
+    let isCorrect = selectedAnswerText === correctAnswer;
+
+    if (isCorrect) {
         selectedAnswer.classList.add("correct");
         score++;
-    }else{
+    } else {
         selectedAnswer.classList.add("incorrect");
     }
+
     Array.from(answerButtons.children).forEach(button => {
-        if(button.dataset.correct === "true"){
+        let buttonText = button.innerHTML;
+        let isCorrectButton = currentQuestion.answers.find(answer => answer.correct).text === buttonText;
+        if (isCorrectButton) {
             button.classList.add("correct");
         }
         button.disabled = true;
