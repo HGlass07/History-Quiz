@@ -18,10 +18,10 @@ Roman History Quiz is a quiz app that allows users to test their knowledge of an
 Once the quiz has finished, the user will be displayed with a different message depending on their score, with a 'reward' image being displayed to those who score 10/10. The user can then choose to play again to try and increase their score, or to see a different variety of questions.
 
 **Site-owner Goals:**
-•	Provide a challenging knowledge test of the subject matter for users
-•	Allow users to easily understand the rules and expected output of the quiz
-•	Allow easy navigation of the site
-•	Ensure a degree of 're-playability' by making each play-through unique, and providing a different end result depending on score
+- Provide a challenging knowledge test of the subject matter for users
+- Allow users to easily understand the rules and expected output of the quiz
+- Allow easy navigation of the site
+- Ensure a degree of 're-playability' by making each play-through unique, and providing a different end result depending on score
 
 --------------
 
