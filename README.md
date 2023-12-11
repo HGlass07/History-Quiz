@@ -17,7 +17,7 @@ Roman History Quiz is a quiz app that allows users to test their knowledge of an
 
 Once the quiz has finished, the user will be displayed with a different message depending on their score, with a 'reward' image being displayed to those who score 10/10. The user can then choose to play again to try and increase their score, or to see a different variety of questions.
 
-#Site-owner Goals:
+**Site-owner Goals:**
 - Provide a challenging knowledge test of the subject matter for users
 - Allow users to easily understand the rules and expected output of the quiz
 - Allow easy navigation of the site
@@ -56,10 +56,10 @@ The site was tested on the following browsers, all site functions work as intend
 - Safari
 - Microsoft Edge
 
-Bugs identified:
+**Bugs identified:**
 - Occasionally for iPhone users, it appears that once a question is answered and the next question is displayed, an answer will be highlighed as if it had been clicked on without any action from the user. This does not appear to be an issue for Android users. This bug does not 'break' the game, as the highlighted answer on the next question does not correspond with the correct answer, instead seeming to 'echo' the position of the previously clicked answer.
 
-Validation:
+**Validation:**
 
 - W3C HTML validation - no errors are returned when passing the HTML pages through this validator
 
