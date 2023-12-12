@@ -23,7 +23,7 @@ Once the quiz has finished, the user will be displayed with a different message 
 - Allow easy navigation of the site
 - Ensure a degree of 're-playability' by making each play-through unique, and providing a different end result depending on score
 
-# User-stories:
+### User-stories:
 
 **First-time user:**
 - As a first time user, I want to be presented with a site layout where it is immediately clear what the site's purpose is
@@ -40,13 +40,12 @@ Once the quiz has finished, the user will be displayed with a different message 
 
 The design of the website clearly lays out the description and instructions of the quiz in the header section, with the main quiz area below. Thematic colors and graphics are used to enhance the feel of the quiz, whilst not distracting the user. The questions are numbered from 1 to 10, with the 4 answer options being displayed in clear boxes below.
 
-
-<wireframes>
-  <summary><i>Wireframes - made using Balsamiq</i></summary>
+<wireframes open>
+<summary>>Wireframes - made using Balsamiq</summary>
+<br>
   ![wireframe1 screenshot](assets/images/wireframe1.png)
   ![wireframe2 screenshot](assets/images/wireframe2.png)
 </wireframes>
-
 
 --------------
 ## Features:
