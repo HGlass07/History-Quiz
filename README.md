@@ -40,14 +40,13 @@ Once the quiz has finished, the user will be displayed with a different message 
 
 The design of the website clearly lays out the description and instructions of the quiz in the header section, with the main quiz area below. Thematic colors and graphics are used to enhance the feel of the quiz, whilst not distracting the user. The questions are numbered from 1 to 10, with the 4 answer options being displayed in clear boxes below.
 
-<wireframes open>
-<summary>>Wireframes - made using Balsamiq</summary>
-<br>
-  ![wireframe1 screenshot](assets/images/wireframe1.png)
-  
-</wireframes>
 
+**Wireframes - made using Balsamiq**
+  
+![wireframe1 screenshot](assets/images/wireframe1.png)
+<br>
 ![wireframe2 screenshot](assets/images/wireframe2.png)
+
 --------------
 ## Features:
 
