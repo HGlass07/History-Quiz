@@ -17,6 +17,22 @@ Roman History Quiz is a quiz app that allows users to test their knowledge of an
 
 Once the quiz has finished, the user will be displayed with a different message depending on their score, with a 'reward' image being displayed to those who score 10/10. The user can then choose to play again to try and increase their score, or to see a different variety of questions.
 
+**Site-owner Goals:**
+- Provide a challenging knowledge test of the subject matter for users
+- Allow users to easily understand the rules and expected output of the quiz
+- Allow easy navigation of the site
+- Ensure a degree of 're-playability' by making each play-through unique, and providing a different end result depending on score
+
+**User-stories:**
+First-time user:
+- As a first time user, I want to be presented with a site layout where it is immediately clear what the site's purpose is
+- I want to be presented with a quiz whose content is engaging and challenging, and where there is a potential for learning new information
+- I want to be able to see immediate feedback on my answers, with a visual cue informing if my answer was correct or not, as well as total score displayed at the end
+
+Returning user:
+- As a returning user, I want my experience of the quiz to be different to the first time
+- I want to be able to use information I have gained from previous playthroughs to increase my score and alter the quiz outcome
+
 --------------
 
 ## Design: 
@@ -44,9 +60,16 @@ The site was tested with an initial deployment. The quiz worked as intended, how
   
 These issues were subsequently fixed with a timer function, and color coding for correct and incorrect answers.
 
-Bugs identified:
-- Occasionally for iPhone users, it appears that once a question is answered and the next question is displayed, an answer will be highlighed as if it had been clicked on without any action from the user. This does not appear to be an issue for Android users.
+The site was tested on the following browsers, all site functions work as intended:
+- Google Chrome
+- Mozilla Firefox
+- Safari
+- Microsoft Edge
 
+**Bugs identified:**
+- Occasionally for iPhone users, it appears that once a question is answered and the next question is displayed, an answer will be highlighed as if it had been clicked on without any action from the user. This does not appear to be an issue for Android users. This bug does not 'break' the game, as the highlighted answer on the next question does not correspond with the correct answer, instead seeming to 'echo' the position of the previously clicked answer.
+
+**Validation:**
 - W3C HTML validation - no errors are returned when passing the HTML pages through this validator
 
 - W3C CSS validator - no errors are returned when passing the CSS document through this validator
@@ -93,3 +116,4 @@ Javascript:
 --------------
 ## Aknowledgements:
 
+I would like to thank my tutor Antonio for his guidance in this project, as well as my friends and family for helping to test the app.
