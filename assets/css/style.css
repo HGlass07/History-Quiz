@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&display=swap');
 
 #score-image {
-    display: none;
+  display: none;
 }
 
 /*asterisk wildcard command to override default browser styless*/
