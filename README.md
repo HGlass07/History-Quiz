@@ -83,10 +83,26 @@ The site was tested on the following browsers, all site functions work as intend
 
 **Validation:**
 - W3C HTML validation - no errors are returned when passing the HTML pages through this validator
+<details><summary>HTML validation</summary>
+
+![HTML val screenshot](assets/images/html_validation.png)
+
+</details>
+
 
 - W3C CSS validator - no errors are returned when passing the CSS document through this validator
+<details><summary>CSS validation</summary>
+
+![CSS val screenshot](assets/images/css_validation.png)
+
+</details>
 
 - JSHint Javascript validator - no errors are returned when passing the JS document through this validator
+<details><summary>JS validation</summary>
+
+![JS val screenshot](assets/images/js_validation.png)
+
+</details>
 
 - Lighthouse - a lighthouse score was generated for the site, the results of which can be found below.
 
