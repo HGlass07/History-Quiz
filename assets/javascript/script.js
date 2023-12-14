@@ -37,7 +37,7 @@ let questions = [
     ]
   },
   {
-    question: "In the Roman Republic, how many Consuls were there?",
+    question: "In the Roman Republic, how many Consuls were there at any given time?",
     answers: [
       { text: "Two", correct: true},
       { text: "Three", correct: false},
