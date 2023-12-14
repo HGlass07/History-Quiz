@@ -43,9 +43,13 @@ The design of the website clearly lays out the description and instructions of t
 
 **Wireframes - made using Balsamiq**
   
+<details><summary>Wireframes</summary>
+
 ![wireframe1 screenshot](assets/images/wireframe1.png)
-<br>
+
 ![wireframe2 screenshot](assets/images/wireframe2.png)
+
+</details>
 
 --------------
 ## Features:
